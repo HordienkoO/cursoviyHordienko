@@ -1,0 +1,116 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Інші товари</title>
+    <!-- Підключення до файлу стилів (css) -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Підключення для отримання деяких елементів з сайту -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="index.html" class="logo">Магазин</a>
+            <a href="etc.html" class="logo">Інші товари</a>
+             <!-- Кошик -->
+            <i class='bx bx-shopping-bag' id="cart-icon" data-quantitiy="0"></i>
+            <div class="cart">
+                <h2 class="cart-title">Ваш кошик</h2>
+                <div class="cart-content">
+                    
+                </div>
+                <div class="total">
+                    <div class="total-title">Всього: </div>
+                    <div class="total-price">₴0</div>
+                </div>
+                <button type="button" class="btn-buy"><a href="buy.html" class="logo">Придбати</a></button>
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+    <section class="shop container">
+        <br>
+        <div class="shop-content">
+            <!--Товар 1-->
+            <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWDPGEhatDYaeShqSyhhBXc8fB-k5jZ5iYPQINp4ISpuzhw2wDboBZwb7cWYkWqD0K8R881JVLX2HHcQrhQ1jLtX1qeBC9xbFP18EOxhluSpXK-JseQwm52Pnl86zEiqMIlprvl7C_BavhSQXL-4fUzNBs1_Bj1uXOadsTT3iJzIr6dXSlOYGI7wcc8A8/s320/00000006136_451-740x740.webp" 
+                alt="" 
+                class="product-img"/>
+                <h2 class="product-title">Anime</h2>
+                <span class="price">₴350</span>
+                <i class='bx bxs-shopping-bag' ></i>
+            </div>
+            <!--Товар 2-->
+            <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgc1qLSpXDFd1XnDOJuPcPokc5ljQyC7PvGrhiasrEK8TdfxgfvyQeO4HM7LeF_JBVwFpVT2_BpOwLwi6ak3btwQtBL9UctTcU2dyYuG1KT9ex4VCZ3fNie-JB6PXxXCW0cRCOCVm5nVV3mRpY2rzzkf0xUYppTMz9nkSeOU6382A1M7RjP3V290F3LKVg/s320/00000007475_473-740x740.webp" 
+                alt="" 
+                class="product-img">
+                <h2 class="product-title">Immortal "Unholy Forces Of Evil"</h2>
+                <span class="price">₴1150</span>
+                <i class='bx bxs-shopping-bag' ></i>
+            </div>
+            <!--Товар 3-->
+            <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhH0hKGEBvTBgI6Rg7lwkmJF6GmwAG6AayI7E_0281tc7xpVqigKcIlS28IF5VwGCdzX1lZHH99vWKKgs2bz2b2b_D2KCsSASPBoUSGRgHV0IelHoSDxW_DWdTnNR-Trw-l1JdcQ5Bl6gpCDHyeEhZK_S8Cj3z7PcnNQXJYcBrAWijW9cN9Y6TEwvByffM/s320/22274-740x740.webp" 
+                alt="" 
+                class="product-img"/>
+                <h2 class="product-title">Шарф Slipknot</h2>
+                <span class="price">₴590</span>
+                <i class='bx bxs-shopping-bag' ></i>
+            </div>
+            <!--Товар 4-->
+            <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiht68D8-9v-P5tc1IE_kqTMydI_RHW0Jq2uHCK1i_-aCL9kHfPNb7n1U4M4bsRAnrMnWxG9HF0fww2U2kzvFgcW46JaVB-3I6lQ9vHe11fWRDsiNfk0H2in5QWeIMra323ir0u4AUGgWIlrJALj3D7fuBtP_nB8pEmHHpRx6WeW_YchE6vNZIq3p6AqD0/s320/22749-2-740x740.webp"   
+                alt="" 
+                class="product-img"/>
+                <h2 class="product-title">Korn "Still A Freak"</h2>
+                <span class="price">₴1150</span>
+                <i class='bx bxs-shopping-bag' ></i>
+            </div>
+            <!--Товар 5-->
+            <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiH9e6gP6Hv2D8aqX0R6-JK61OcBJEovuviUgM8xE6bKDflna2WkkIPxSU7EOC9wPSuG0Y7nSnQnzxG3KFnkF5yw1jy1uTzYog2QksyX8Pi2aN8Wyj-yXaj1D6FNHFzz2GyYTXmt4iGXsZ0NFD4bdAoKTawiMZD-eqO_9sl835R0V_xQMTBaP0xdcK3hRI/s320/21877-740x740.webp"      
+                alt="" 
+                class="product-img"/>
+                <h2 class="product-title">Slipknot (goats logo)</h2>
+                <span class="price">₴1150</span>
+                <i class='bx bxs-shopping-bag' ></i>
+            </div>
+            <!--Товар 6-->
+            <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpaBDmvZ9pUDr7bbA3hpg7gcrCB-omNVayLM8sH63rJC9Qbp29VF6jgUhxAOcY47bBvUiJP9xL3Hvb3s6qN6dLotuz1dx3yju91QdRHLHsm4xN7qMZYaHA-fYMa9DzxV1fS_r51ghJzllVfwknIyHQj62jVTBKDbYb7BwzrWeb9x0sJtwRe42yxbVr0BM/s320/botinki-STEEL-139-140OZ-BLK-36r-20-lyuversov-1-740x740.webp" 
+                alt="" 
+                class="product-img"/>
+                <h2 class="product-title">STEEL 139/140OZ-BLK 36(Р)</h2>
+                <span class="price">₴4950</span>
+                <i class='bx bxs-shopping-bag' ></i>
+            </div>
+            <!--Товар 7-->
+            <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjT5biPQ334Kdx-Czy5DZ0VCoJl9iA-Ql0s6O89LxrDKupJGj3wcvuXkHBPZWOPRUlfrRaQG3X3oMWGdO-Tq0WA8HkUiwLBTEIoUnPe70y-fNpItZix-MVwQ2dgV1n9jUhl4Jul1YYAm1UOzh_4IUZPIu9VlxGTO2_BLNMOkSec3ndujf877e6_URuaBtA/s320/00000010350-740x740.webp" 
+                alt="" 
+                class="product-img"/>
+                <h2 class="product-title">Cannibal Corpse "Hammer Smashed Face" (red)</h2>
+                <span class="price">₴990</span>
+                <i class='bx bxs-shopping-bag' ></i>
+            </div>
+             <!--Товар 8-->
+            <div class="product-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEim1JbI6s84lp2qCMcstUNSkY_E4F5tqznsEP1Dt5fasMAhyphenhyphen33Cw8Vv08larGBAryR4m395MjaY_EHPMHhHOQKU1NQjEIbFFpGII_jDRfh69-m0DtWWgoFw8Y7QDS7ka1fOnVGrBdmtWwtb-SmcPl5YC4D7-OMM0od9lYPoE9D8TKnq9MjEThzI0PBDh50/s320/22513-2-740x740.webp" 
+                alt="" 
+                class="product-img"/>
+                <h2 class="product-title"> Браслет </h2>
+                <span class="price">₴330</span>
+                <i class='bx bxs-shopping-bag' ></i>
+            </div>
+        </div>
+        
+    </section>
+    <br>
+     <!-- Підключення до файлу js -->
+    <script src="main.js"></script>
+</body>
+</html>

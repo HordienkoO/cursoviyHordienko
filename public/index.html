@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Магазин одягу</title>
+    <!-- Підключення до файлу стилів (css) -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Підключення для отримання деяких елементів з сайту -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/>
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="#" class="logo">Магазин</a>
+            <a href="etc.html" class="logo">Інші товари</a>
+            <!-- Кошик -->
+            <i class='bx bx-shopping-bag' id="cart-icon" data-quantitiy="0"></i>
+            <div class="cart">
+                <h2 class="cart-title">Ваш кошик</h2>
+                <div class="cart-content">
+                    
+                </div>
+                <div class="total">
+                    <div class="total-title">Всього: </div>
+                    <div class="total-price">₴0</div>
+                </div>
+                <button type="button" class="btn-buy"><a href="buy.html" class="logo">Придбати</a></button>
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+    <section class="shop container">
+        <h2 class="section-title">Товари</h2>
+        <h3 class="section-title">Футболки</h3>
+        <div class="shop-content">
+            <!--Товар 1-->
+            <div class="product-box" data-title="BABYMETAL">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipQhbahOOCuWfkc_ofM0Gm8LsU8UMCEnGD_raUIGHpsGISC1heWXiIbIoV_kYXjRoCku5PbPlTRN8Jolc8ZF6YyJc8dbakPA_BH2SAMf4SZqmrLGbyPdhrtFguSQIhuBVjydOG6Ce-wBVbHT0FQTFoCYRWCQkkBAZNup-CglRg3vWpNpUAm73wR8W1jyo/s320/1025789074_w640_h640_futbolka-babymetal-art.jpeg" 
+                    alt="" 
+                    class="product-img"/>
+                <h2 class="product-title">BABYMETAL</h2>
+                <span class="price">₴500</span>
+                <i class='bx bxs-shopping-bag' ></i>
+            </div>
+            <!--Товар 2-->
+            <div class="product-box" data-title="Korn - SOS Doll">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMtou_SezRbNnQBsvnZPEdxO0qsExT12uVWPP2hBVK3qMN9Yk1IoeFC1T6wddm0YGCL3fZ71XN20Nm2AN_tHWXnWX26zbPJVQ81LMO614ikr3geoflCb2vtjRjnzfdCIUaxp-bfzrM665UkC9UdAx83bA7ZqzPXmvhREsc06UinH4qIGTS6OzfXgmR-mo/s320/aaeq003.jpg" 
+                alt="" 
+                class="product-img">
+                <h2 class="product-title">Korn - SOS Doll</h2>
+                <span class="price">₴570</span>
+                <i class='bx bxs-shopping-bag' ></i>
+            </div>
+            <!--Товар 3-->
+            <div class="product-box" data-title="Lorna Store 1">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtZhT6Of7BUoCP8T1_X26u8P3DgyOWQ40qH1S4enDcZ7YMEo0TtZhyphenhyphenxk_x7Ob_TjwGViLQWcz32NkREU9EcwVtfuKlsM1py_HMUOKTSiA2DP-BnjZh9kjGrLuep37Qy-3lFjkW1kWOdlwLQMTvwCcIy0m01YMFUm5dYXIp7VpXtvaFXOlpxiLgW7k3RN8/s320/S8f1e6288e21a48bfba98c89b5fae964bJ.jpg" 
+                alt="" 
+                class="product-img"/>
+                <h2 class="product-title">Lorna Store 1</h2>
+                <span class="price">₴600</span>
+                <i class='bx bxs-shopping-bag' ></i>
+            </div>
+            <!--Товар 4-->
+            <div class="product-box" data-title="Lorna Store 2">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiy8ADkayK_rrX53LM1DIkXqlre3yJqtgm4SNNj_U7CKK-KWJl7JI7uqeQRU1KirzqlDqoh-EUTAn-yQvZjZsjvjNz6v85EP_8wt4WCv2T32VPwWAoRDl1Gav39Rd_5IxlAIUHD6VMjNWsnlyFEZ_aSyCzqEWl7GYRMHubz2KBAOuM4_5HwvI8up7rC7Q/s320/S59a41d1f7b4c4ea5855c7284048bdbcaF.jpeg"   
+                alt="" 
+                class="product-img"/>
+                <h2 class="product-title">Lorna Store 2</h2>
+                <span class="price">₴650</span>
+                <i class='bx bxs-shopping-bag' ></i>
+            </div>
+            <!--Товар 5-->
+            <div class="product-box" data-title="CANNIBAL CORPSE - PLASTIC HEAD">
+                <img src="https://www.metalshop.com.ua/images/produkty/thumb/135954_a009.JPG.webp"      
+                alt="" 
+                class="product-img"/>
+                <h2 class="product-title">CANNIBAL CORPSE - PLASTIC HEAD</h2>
+                <span class="price">₴788</span>
+                <i class='bx bxs-shopping-bag' ></i>
+            </div>
+            <!--Товар 6-->
+            <div class="product-box" data-title="Korn - Self Titled">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEir7rE45136kfugl0px00gV9gqMkiyYoyRRDrHZ3vbjwSZ135QvDQKkDmZlKku6eH3ANaG7Iothcc2vvTYucU93ttKomoEAjbzDyAcoQrcHG_DdyGoLaSk5R8sbTGqi_L9nnDuN8Ktd2vXvGKDPrG0SoVb_1eHhQc0ar0h5p7HUrrG6kuNavkAv1YG7Ysw/s320/aaeq006.JPG.jpg" 
+                alt="" 
+                class="product-img"/>
+                <h2 class="product-title">Korn - Self Titled</h2>
+                <span class="price">₴800</span>
+                <i class='bx bxs-shopping-bag' ></i>
+            </div>
+            <!--Товар 7-->
+            <div class="product-box" data-title="Tshiiiiirt">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEho-Zj8NWO4HxGlr8n6sl84qbIWAwIYnv7NKePG5zOZLZ-SEF7WTxGjXQvnejpX58g6Kb6Wl-MdZapKjAW6Ws59-VzqkyazRbM61J0V5XaOGr1GC5cPEfylkEoaJv-32R2e0rPWCRitmpcXf4bNTyCiQmrgix31-lenGzs1HfPUdtnewu7EzamR3ffWGYk/s320/c.jpeg" 
+                alt="" 
+                class="product-img"/>
+                <h2 class="product-title">Tshiiiiirt</h2>
+                <span class="price">₴400</span>
+                <i class='bx bxs-shopping-bag' ></i>
+            </div>
+            <!--Товар 8-->
+            <div class="product-box" data-title="SHINING">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi58fwA-7nzwMs7P-BoU0gRr9N75lntgkQkNr-LqxfjVR4MypPr94aelv046c-3ciXdwlIQ5p5pvaOoKggFgoQ2UXzZMEhuN_r76gbqFyKiMPUTWQ8YPsw3mcQXqkBtKzk8c_ki6SHo5DXLgaUD1_cghaLQgZQNuqgYhfc5tCvIHrsaJf_qsx7kQxvhSj4/w320-h320/wwf-aw041.jpg.webp" 
+                alt="" 
+                class="product-img"/>
+                <h2 class="product-title"> SHINING </h2>
+                <span class="price">₴508</span>
+                <i class='bx bxs-shopping-bag' ></i>
+            </div>
+        </div>
+        
+    </section>
+    <br>
+
+    <!-- Підключення до файлу js -->
+    <script src="main.js"></script>
+
+</body>
+</html>
